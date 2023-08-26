@@ -99,7 +99,7 @@ pictures = {"Adelie": "penguin_pics/adelie.jpeg",
 
 if user_input_col2.button("Predict!"):
     result = pipeline.predict(user_input)[0]
-    result_col.header(f"It is a/an {result}!")
+    result_col.subheader(f"It is a/an {result}!")
     result_col.image(pictures[result], use_column_width=True)
     st.snow()
 
