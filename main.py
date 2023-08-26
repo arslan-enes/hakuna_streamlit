@@ -16,7 +16,7 @@ def get_pipeline():
     pipeline = joblib.load("penguin_pipeline.joblib")
     return pipeline
 
-st.title(":blue[Penguin] :red[Classifier] 🐧🐧")
+st.title(":blue[Penguin] :red[Classifier] 🐧🐧🐧")
 
 main_page, data_page, model_page = st.tabs(["Ana Sayfa", "Veri Seti", "Model"])
 
